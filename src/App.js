@@ -2,9 +2,9 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter, Route, Link} from 'react-router-dom';
-import Projects from './Projects';
-import Articles from './Articles';
-import About from './About';
+import Projects from './Projects.js';
+import Articles from './Articles.js';
+import About from './About.js';
 
 
 function App() {
@@ -14,15 +14,15 @@ function App() {
 
         {/*Setup the router*/}
         <Route exact path='/' component={Projects}/>
-        <Route path ='/Articles' component={Articles}/>
-        <Route path ='/About' component={About}/>
+        <Route path ='/articles' component={Articles}/>
+        <Route path ='/about' component={About}/>
         
         <div className='navigation'>
           <p className>Contact</p>
           <div className='sub-navigation'>
             <Link to='/' className='sub-nav-item'>Projects</Link>
-            <Link to='Articles' className='sub-nav-item'>Articles</Link>
-            <Link to='About' className='sub-nav-item'>About</Link>
+            <Link to='articles' className='sub-nav-item'>Articles</Link>
+            <Link to='about' className='sub-nav-item'>About</Link>
           </div>
         
         </div>
