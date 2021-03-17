@@ -11,14 +11,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-
-        {/*Setup the router*/}
-        <Route exact path='/' component={Projects}/>
-        <Route path ='/articles' component={Articles}/>
-        <Route path ='/about' component={About}/>
-        
         <div className='navigation'>
-          <p className>Contact</p>
           <div className='sub-navigation'>
             <Link to='/' className='sub-nav-item'>Projects</Link>
             <Link to='articles' className='sub-nav-item'>Articles</Link>
@@ -26,6 +19,12 @@ function App() {
           </div>
         
         </div>
+
+        {/*Setup the router*/}
+        <Route exact path='/' component={Projects}/>
+        <Route path ='/articles' component={Articles}/>
+        <Route path ='/about' component={About}/>
+
       </div>
     </BrowserRouter>
   );
