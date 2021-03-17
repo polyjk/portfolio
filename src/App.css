@@ -13,6 +13,22 @@
   }
 }
 
+.sub-navigation {
+  background-color: #282c34;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.sub-nav-item {
+  color: aliceblue;
+  padding: 10px;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
