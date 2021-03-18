@@ -1,38 +1,39 @@
 import React from "react"
 import Thumbnail from './Thumbnail.js';
 import './App.css';
+import logo from './logo.svg';
  
 function Projects(props) {
   return (
     <div>
-      <h1>Projects</h1>
-         <Thumbnail
-            link=''
-            image=''
-            title=''
-            category=''
-        />
+      <h1>Apples</h1>
 
-        <Thumbnail
-            link="/twitter"
-            image="http://twitter-image-url.jpg"
-            title="Twitter Newsfeed"
-            category="Mobile App"
-        />
+        <div className='projRow'>
+          <Thumbnail
+              link="/twitter"
+              image={logo}
+              title="Twitter Newsfeed"
+              category="Mobile App"
+          />
+          
+          <Thumbnail
+              link="/airbnb"
+              image={logo}
+              title="Airbnb Experiences"
+              category="Website"
+          />
+        </div>
+
+        <div className='projRow'>
+          <Thumbnail
+              link="/photoshop"
+              image={logo}
+              title="Photoshop Redesign"
+              category="Desktop App"
+          />
+        </div>
         
-        <Thumbnail
-            link="/airbnb"
-            image="http://airbnb-image-url.jpg>"
-            title="Airbnb Experiences"
-            category="Website"
-        />
-        
-        <Thumbnail
-            link="/photoshop"
-            image="http://photoshop-image-url.jpg"
-            title="Photoshop Redesign"
-            category="Desktop App"
-        />
+
     </div>
   )
 }
