@@ -10,10 +10,7 @@ function Thumbnail(props){
 
         <div className='project'>
             
-            <motion.div
-                animate={{ scale: 2 }}
-                transition={{ duration: 0.5 }}
-            />
+           
 
             {/* <Link to ={props.link}> */}
                 {/* <div className='project-image'>
@@ -30,8 +27,8 @@ function Thumbnail(props){
             <Card>
                 <Card.Img variant="top" src={props.image} className="App-logo" alt="Logo Image" />
                 <Card.Body>
-                    <Card.Title className='project-title'>{props.title}</Card.Title>
-                    <Card.Text className='project-category'>
+                    <Card.Title>{props.title}</Card.Title>
+                    <Card.Text>
                         {props.category}
                     </Card.Text>
                 </Card.Body>

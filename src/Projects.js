@@ -3,15 +3,19 @@ import Thumbnail from './Thumbnail.js';
 import './App.css';
 import logo from './logo.svg';
 import { Col, Container, Row } from "react-bootstrap";
+import { motion } from 'framer-motion';
  
 function Projects(props) {
   return (
     
-    <Container fluid>
-      
-        <h1>Apples</h1>
+    <Container>
+
+
+        <h1 className='component-header'>Apples</h1>
+        
           
-          <Row className='projRow'>
+          {/* <Row className='projRow'> */}
+          <Row>
           
             <Col>
             <Thumbnail
