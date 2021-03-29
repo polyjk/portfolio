@@ -12,30 +12,35 @@ function Projects(props) {
         <h1>Apples</h1>
           
           <Row className='projRow'>
+          
+            <Col>
             <Thumbnail
                 link="/twitter"
                 image={logo}
                 title="Twitter Newsfeed"
                 category="Mobile App"
             />
-          </Row>
+            </Col>
 
-          <Row className='projRow'> 
+            <Col>
             <Thumbnail
                 link="/airbnb"
                 image={logo}
                 title="Airbnb Experiences"
                 category="Website"
             />
-          </Row>
+            </Col>
+          
 
-          <Row className='projRow'>
+            <Col>
             <Thumbnail
                 link="/photoshop"
                 image={logo}
                 title="Photoshop Redesign"
                 category="Desktop App"
             />
+            </Col>
+
           </Row>
 
         

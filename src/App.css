@@ -59,14 +59,14 @@
 } */
 
 .projRow {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 5vh;
   display: flex;
   flex-direction: row;
   align-items: left;
   justify-content: left;
   font-size: calc(10px + 2vmin);
-  color: white;
+  /* color: white; */
   padding: 30px;
 }
 
