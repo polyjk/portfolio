@@ -13,7 +13,7 @@ function App() {
       <div className="App">
         <div className='navigation'>
           <div className='sub-navigation'>
-            <Link to='/' className='sub-nav-item'>Projects</Link>
+            <Link to='/' className='sub-nav-item'>Test</Link>
             <Link to='articles' className='sub-nav-item'>Articles</Link>
             <Link to='about' className='sub-nav-item'>About</Link>
           </div>

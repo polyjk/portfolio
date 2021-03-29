@@ -1,10 +1,11 @@
 import React from "react"
+import { Col, Container, Row } from "react-bootstrap";
  
 function About(props) {
   return (
-    <div>
+    <Container fluid>
       <h1>About</h1>
-    </div>
+    </Container>
   )
 }
  
