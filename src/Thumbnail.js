@@ -7,6 +7,7 @@ import "./App.css";
 function Thumbnail(props) {
   return (
     <div className="project">
+      {/* John - 3/29/31 - This is the default original thumbnail code before using booststrap-react card component */}
       {/* <Link to ={props.link}> */}
       {/* <div className='project-image'>
                     alt='Project Image' -COMMENT THIS OUT AGAIN
@@ -30,7 +31,7 @@ function Thumbnail(props) {
           <Card.Text>{props.category}</Card.Text>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">Last updated: 3/01/2021</small>
+          <small className="text-muted">Last updated: {props.smallTag}</small>
         </Card.Footer>
       </Card>
     </div>

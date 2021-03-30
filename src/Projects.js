@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 function Projects(props) {
   return (
     <Container>
-      <h1 className="component-header">Apples</h1>
+      <h1 className="component-header">Test</h1>
 
       {/* <Row className='projRow'> */}
       <Row>
@@ -16,8 +16,9 @@ function Projects(props) {
           <Thumbnail
             link="/twitter"
             image={logo}
-            title="Twitter Newsfeed"
-            category="Mobile App"
+            title="Alpha"
+            category="Desc1"
+            smallTag="3/01/21"
           />
         </Col>
 
@@ -25,8 +26,9 @@ function Projects(props) {
           <Thumbnail
             link="/airbnb"
             image={logo}
-            title="Airbnb Experiences"
-            category="Website"
+            title="Beta"
+            category="Desc2"
+            smallTag="3/05/21"
           />
         </Col>
 
@@ -34,8 +36,9 @@ function Projects(props) {
           <Thumbnail
             link="/photoshop"
             image={logo}
-            title="Photoshop Redesign"
-            category="Desktop App"
+            title="Chrome"
+            category="Desc3"
+            smallTag="3/015/21"
           />
         </Col>
       </Row>
