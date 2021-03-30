@@ -27,6 +27,16 @@ function Articles(props) {
         <Experience
           link="/photoshop"
           image=""
+          company="SCH"
+          date="1/1/1"
+          title="ZXCV"
+          text="Desc"
+          smallTag="3/015/21"
+        />
+
+        <Experience
+          link="/photoshop"
+          image=""
           company="CO"
           date="1/1/1"
           title="QWERTY"

@@ -20,7 +20,7 @@ function Thumbnail(props) {
                 </div>             */}
       {/* </Link> */}
 
-      <Card style={{ width: "18rem", height: "45vh" }}>
+      <Card style={{ width: "18rem" }}>
         <Card.Img
           variant="top"
           src={props.image}

@@ -7,6 +7,7 @@ import Articles from "./Articles.js";
 import About from "./About.js";
 import { Container } from "react-bootstrap";
 import { Link } from "react-scroll";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
