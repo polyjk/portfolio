@@ -5,6 +5,7 @@ import logo from "./logo.svg";
 import { Col, Container, Row } from "react-bootstrap";
 import { motion, useAnimation } from "framer-motion";
 import { Link } from "react-scroll";
+import ScrollAnimation from "react-animate-on-scroll";
 
 function Projects(props) {
   const controls = useAnimation();
@@ -18,7 +19,8 @@ function Projects(props) {
       <h1 className="component-header">P</h1>
 
       {/* <Row className='projRow'> */}
-      <motion.div animate={controls}>
+      {/* <motion.div animate={controls}> */}
+      <ScrollAnimation animateIn="fadeIn">
         <Container className="projects-all">
           <Row>
             <Thumbnail
@@ -48,7 +50,8 @@ function Projects(props) {
             />
           </Row>
         </Container>
-      </motion.div>
+      </ScrollAnimation>
+      {/* </motion.div> */}
     </Container>
   );
 }
