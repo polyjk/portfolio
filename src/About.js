@@ -3,8 +3,8 @@ import { Col, Container, Row } from "react-bootstrap";
  
 function About(props) {
   return (
-    <Container fluid>
-      <h1>About</h1>
+    <Container>
+      <h1 className='component-header'>About</h1>
     </Container>
   )
 }

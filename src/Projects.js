@@ -3,39 +3,48 @@ import Thumbnail from './Thumbnail.js';
 import './App.css';
 import logo from './logo.svg';
 import { Col, Container, Row } from "react-bootstrap";
+import { motion } from 'framer-motion';
  
 function Projects(props) {
   return (
     
-    <Container fluid>
-      
-        <h1>Apples</h1>
+    <Container>
+
+
+        <h1 className='component-header'>Apples</h1>
+        
           
-          <Row className='projRow'>
+          {/* <Row className='projRow'> */}
+          <Row>
+          
+            <Col>
             <Thumbnail
                 link="/twitter"
                 image={logo}
                 title="Twitter Newsfeed"
                 category="Mobile App"
             />
-          </Row>
+            </Col>
 
-          <Row className='projRow'> 
+            <Col>
             <Thumbnail
                 link="/airbnb"
                 image={logo}
                 title="Airbnb Experiences"
                 category="Website"
             />
-          </Row>
+            </Col>
+          
 
-          <Row className='projRow'>
+            <Col>
             <Thumbnail
                 link="/photoshop"
                 image={logo}
                 title="Photoshop Redesign"
                 category="Desktop App"
             />
+            </Col>
+
           </Row>
 
         
