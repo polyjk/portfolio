@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
 import React from "react";
 import { Card } from "react-bootstrap";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import "./App.css";
 
 function Thumbnail(props) {
@@ -28,7 +29,7 @@ function Thumbnail(props) {
         />
         <Card.Body>
           <Card.Title>{props.title}</Card.Title>
-          <Card.Text>{props.category}</Card.Text>
+          <Card.Text>{props.text}</Card.Text>
         </Card.Body>
         <Card.Footer>
           <small className="text-muted">Last updated: {props.smallTag}</small>

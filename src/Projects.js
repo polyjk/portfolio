@@ -4,11 +4,12 @@ import "./App.css";
 import logo from "./logo.svg";
 import { Col, Container, Row } from "react-bootstrap";
 import { motion } from "framer-motion";
+import { Link } from "react-scroll";
 
 function Projects(props) {
   return (
     <Container>
-      <h1 className="component-header">Test</h1>
+      <h1 className="component-header">P</h1>
 
       {/* <Row className='projRow'> */}
       <Row>
@@ -17,7 +18,7 @@ function Projects(props) {
             link="/twitter"
             image={logo}
             title="Alpha"
-            category="Desc1"
+            text="Desc1"
             smallTag="3/01/21"
           />
         </Col>
@@ -27,7 +28,7 @@ function Projects(props) {
             link="/airbnb"
             image={logo}
             title="Beta"
-            category="Desc2"
+            text="Desc2"
             smallTag="3/05/21"
           />
         </Col>
@@ -37,7 +38,7 @@ function Projects(props) {
             link="/photoshop"
             image={logo}
             title="Chrome"
-            category="Desc3"
+            text="Desc3"
             smallTag="3/015/21"
           />
         </Col>

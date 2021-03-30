@@ -28,6 +28,7 @@
   justify-content: right;
   font-size: calc(10px + 2vmin);
   color: white;
+  z-index: 9999;
 }
 
 .sub-nav-item {
@@ -84,3 +85,7 @@
   }
 }
 */
+
+.fullComponent {
+  height: 100vh;
+}
