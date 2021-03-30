@@ -36,52 +36,52 @@ function App() {
     //END
 
     <div>
-      <div className="navigation" id="navbar">
-        <div className="sub-navigation" id="section1">
-          {/* <Link to="/" className="sub-nav-item"> */}
-          <Link
-            className="sub-nav-item"
-            activeClass="active"
-            to="section1"
-            spy={true}
-            smooth={true}
-            duration={1000}
-          >
-            H
-          </Link>
-          {/* <Link to="articles" className="sub-nav-item"> */}
-          <Link
-            className="sub-nav-item"
-            activeClass="active"
-            to="section2"
-            spy={true}
-            smooth={true}
-            duration={1000}
-          >
-            P
-          </Link>
-          {/* <Link to="about" className="sub-nav-item"> */}
-          <Link
-            className="sub-nav-item"
-            activeClass="active"
-            to="section3"
-            spy={true}
-            smooth={true}
-            duration={1000}
-          >
-            E
-          </Link>
-        </div>
+      <h1 id="section1">Scroll Margin</h1>
+
+      <div className="navigation">
+        {/* <Link to="/" className="sub-nav-item"> */}
+        <Link
+          className="sub-nav-item"
+          activeClass="active"
+          to="section1"
+          spy={true}
+          smooth={true}
+          duration={1000}
+        >
+          H
+        </Link>
+        {/* <Link to="articles" className="sub-nav-item"> */}
+        <Link
+          className="sub-nav-item"
+          activeClass="active"
+          to="section2"
+          spy={true}
+          smooth={true}
+          duration={1000}
+        >
+          E
+        </Link>
+        {/* <Link to="about" className="sub-nav-item"> */}
+        <Link
+          className="sub-nav-item"
+          activeClass="active"
+          to="section3"
+          spy={true}
+          smooth={true}
+          duration={1000}
+        >
+          P
+        </Link>
       </div>
 
       <div className="fullComponent">
         <About />
       </div>
       <div className="fullComponent" id="section2">
-        <Projects />
+        <Articles />
       </div>
       <div className="fullComponent" id="section3">
-        <Articles />
+        <Projects />
       </div>
     </div>
   );

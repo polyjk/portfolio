@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
 import React from "react";
-import { Card } from "react-bootstrap";
+import { Card, Container } from "react-bootstrap";
 // import { Link } from "react-router-dom";
 import { Link } from "react-scroll";
 import "./App.css";
 
 function Thumbnail(props) {
   return (
-    <div className="project">
+    <Container className="project">
       {/* John - 3/29/31 - This is the default original thumbnail code before using booststrap-react card component */}
       {/* <Link to ={props.link}> */}
       {/* <div className='project-image'>
@@ -35,7 +35,7 @@ function Thumbnail(props) {
           <small className="text-muted">Last updated: {props.smallTag}</small>
         </Card.Footer>
       </Card>
-    </div>
+    </Container>
   );
 }
 

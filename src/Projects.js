@@ -12,8 +12,8 @@ function Projects(props) {
       <h1 className="component-header">P</h1>
 
       {/* <Row className='projRow'> */}
-      <Row>
-        <Col>
+      <Container className="projects-all">
+        <Row>
           <Thumbnail
             link="/twitter"
             image={logo}
@@ -21,9 +21,8 @@ function Projects(props) {
             text="Desc1"
             smallTag="3/01/21"
           />
-        </Col>
-
-        <Col>
+        </Row>
+        <Row>
           <Thumbnail
             link="/airbnb"
             image={logo}
@@ -31,9 +30,8 @@ function Projects(props) {
             text="Desc2"
             smallTag="3/05/21"
           />
-        </Col>
-
-        <Col>
+        </Row>
+        <Row>
           <Thumbnail
             link="/photoshop"
             image={logo}
@@ -41,8 +39,8 @@ function Projects(props) {
             text="Desc3"
             smallTag="3/015/21"
           />
-        </Col>
-      </Row>
+        </Row>
+      </Container>
     </Container>
   );
 }

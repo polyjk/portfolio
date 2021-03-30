@@ -1,3 +1,4 @@
+/****************************************************App.js - START - ****************************************************/
 .App {
   /* text-align: center; */
 }
@@ -7,19 +8,19 @@
   pointer-events: none;
 }
 
-/* - Disabled for now 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.fullComponent {
+  height: 100vh;
 }
-*/
+
+.fullComponentCards {
+  height: 100vh;
+}
 
 .component-header {
-  padding: 30px;
+  padding-top: 100px;
 }
 
-.sub-navigation {
+.navigation {
   background-color: #282c34;
   min-height: 5vh;
   display: flex;
@@ -28,7 +29,9 @@
   justify-content: right;
   font-size: calc(10px + 2vmin);
   color: white;
-  z-index: 9999;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 .sub-nav-item {
@@ -51,17 +54,7 @@
   color: #61dafb;
 }
 
-/* .project {
-  background-color: #282c34;
-  min-height: 5vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  padding: 15px;
-} */
+/****************************************************App.js - END - ****************************************************/
 
 .projRow {
   /* background-color: #282c34; */
@@ -75,17 +68,13 @@
   padding: 30px;
 }
 
-/* - Disabled for now 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.projects-all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-*/
 
-.fullComponent {
-  height: 100vh;
+.project {
+  padding: 15px;
 }
