@@ -36,7 +36,9 @@ function App() {
     //END
 
     <div>
-      <h1 id="section1">Scroll Margin</h1>
+      <h1 className="header" id="section1">
+        ASDF
+      </h1>
 
       <div className="navigation">
         {/* <Link to="/" className="sub-nav-item"> */}
