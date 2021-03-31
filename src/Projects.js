@@ -5,7 +5,6 @@ import logo from "./logo.svg";
 import { Col, Container, Row } from "react-bootstrap";
 import { motion, useAnimation } from "framer-motion";
 import { Link } from "react-scroll";
-import ScrollAnimation from "react-animate-on-scroll";
 
 function Projects(props) {
   const controls = useAnimation();
@@ -20,39 +19,39 @@ function Projects(props) {
 
       {/* <Row className='projRow'> */}
       {/* <motion.div animate={controls}> */}
-      <ScrollAnimation animateIn="fadeIn">
-        <Container className="projects-all">
-          <Row>
-            <Col>
-              <Thumbnail
-                link="/twitter"
-                image={logo}
-                title="Alpha"
-                text="Desc1"
-                smallTag="3/01/21"
-              />
-            </Col>
-            <Col>
-              <Thumbnail
-                link="/airbnb"
-                image={logo}
-                title="Beta"
-                text="Desc2"
-                smallTag="3/05/21"
-              />
-            </Col>
-            <Col>
-              <Thumbnail
-                link="/photoshop"
-                image={logo}
-                title="Chrome"
-                text="Desc3"
-                smallTag="3/015/21"
-              />
-            </Col>
-          </Row>
-        </Container>
-      </ScrollAnimation>
+
+      <Container className="projects-all">
+        <Row>
+          <Col>
+            <Thumbnail
+              link="/twitter"
+              image={logo}
+              title="Alpha"
+              text="Desc1"
+              smallTag="3/01/21"
+            />
+          </Col>
+          <Col>
+            <Thumbnail
+              link="/airbnb"
+              image={logo}
+              title="Beta"
+              text="Desc2"
+              smallTag="3/05/21"
+            />
+          </Col>
+          <Col>
+            <Thumbnail
+              link="/photoshop"
+              image={logo}
+              title="Chrome"
+              text="Desc3"
+              smallTag="3/015/21"
+            />
+          </Col>
+        </Row>
+      </Container>
+
       {/* </motion.div> */}
     </Container>
   );

@@ -7,7 +7,11 @@ import Articles from "./Articles.js";
 import About from "./About.js";
 import { Container } from "react-bootstrap";
 import { Link } from "react-scroll";
+import ScrollAnimation from "react-animate-on-scroll";
 import "bootstrap/dist/css/bootstrap.min.css";
+import wallpaper1 from "./backgrounds/wallpaper1.jpeg";
+import wallpaper2 from "./backgrounds/wallpaper2.jpeg";
+import wallpaper3 from "./backgrounds/wallpaper3.jpeg";
 
 function App() {
   return (
@@ -77,15 +81,20 @@ function App() {
         </Link>
       </div>
 
-      <div className="fullComponent">
+      <div
+        className="fullComponent"
+        // style={{ backgroundImage: `url(${wallpaper1})` }}
+      >
         <About />
       </div>
       <div className="fullComponent" id="section2">
         <Articles />
       </div>
+      <ScrollAnimation animateIn="fadeIn"></ScrollAnimation>
       <div className="fullComponent" id="section3">
         <Projects />
       </div>
+      <ScrollAnimation animateIn="fadeIn"></ScrollAnimation>
     </div>
   );
 }

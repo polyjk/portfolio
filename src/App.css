@@ -3,22 +3,33 @@
   /* text-align: center; */
 }
 
+.landing-wrapper {
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
 .App-logo {
   height: 10vmin;
   pointer-events: none;
 }
 
 .fullComponent {
-  height: 100vh;
+  height: 100%;
+  min-height: 100vh;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .fullComponentCards {
   height: 100vh;
+  min-height: 100vh;
 }
 
 .component-header {
-  padding-top: 15vh;
-  padding-bottom: 15vh;
+  padding-top: 15vmin;
+  padding-bottom: 15vmin;
 }
 
 .navigation {
