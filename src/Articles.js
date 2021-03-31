@@ -22,7 +22,7 @@ import Experience from "./Experience.js";
 function Articles(props) {
   return (
     <Container>
-      <h1 className="component-header">E</h1>
+      <h1 className="component-header">Elephant</h1>
       <Container className="experience-all">
         <Experience
           link="/photoshop"

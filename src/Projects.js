@@ -5,6 +5,10 @@ import logo from "./logo.svg";
 import { Col, Container, Row } from "react-bootstrap";
 import { motion, useAnimation } from "framer-motion";
 import { Link } from "react-scroll";
+import smartphone from "./images/smartphone.png";
+import controller from "./images/controller.svg";
+import website from "./images/website.png";
+//import android from "./images/android.jpeg";
 
 function Projects(props) {
   const controls = useAnimation();
@@ -15,7 +19,9 @@ function Projects(props) {
   });
   return (
     <Container>
-      <h1 className="component-header">P</h1>
+      <h1 className="component-header" style={{ color: "#282c34" }}>
+        Panther
+      </h1>
 
       {/* <Row className='projRow'> */}
       {/* <motion.div animate={controls}> */}
@@ -25,28 +31,28 @@ function Projects(props) {
           <Col>
             <Thumbnail
               link="/twitter"
-              image={logo}
-              title="Alpha"
-              text="Desc1"
-              smallTag="3/01/21"
+              image={smartphone}
+              title=" Quickest Arrival"
+              text="Android Mobile App"
+              smallTag="Java"
             />
           </Col>
           <Col>
             <Thumbnail
               link="/airbnb"
-              image={logo}
-              title="Beta"
-              text="Desc2"
-              smallTag="3/05/21"
+              image={controller}
+              title="Turn The Tides"
+              text="Unity Video Game"
+              smallTag="C#"
             />
           </Col>
           <Col>
             <Thumbnail
               link="/photoshop"
-              image={logo}
-              title="Chrome"
-              text="Desc3"
-              smallTag="3/015/21"
+              image={website}
+              title="Portfolio"
+              text="Responsive React Website"
+              smallTag="React, JavaScript, HTML, CSS"
             />
           </Col>
         </Row>

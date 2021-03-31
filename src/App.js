@@ -9,9 +9,6 @@ import { Container } from "react-bootstrap";
 import { Link } from "react-scroll";
 import ScrollAnimation from "react-animate-on-scroll";
 import "bootstrap/dist/css/bootstrap.min.css";
-import wallpaper1 from "./backgrounds/wallpaper1.jpeg";
-import wallpaper2 from "./backgrounds/wallpaper2.jpeg";
-import wallpaper3 from "./backgrounds/wallpaper3.jpeg";
 
 function App() {
   return (
@@ -40,9 +37,9 @@ function App() {
     // </BrowserRouter>
     //END
 
-    <div>
+    <div className="App">
       <h1 className="header" id="section1">
-        ASDF
+        {" "}
       </h1>
 
       <div className="navigation">
@@ -55,7 +52,7 @@ function App() {
           smooth={true}
           duration={1000}
         >
-          H
+          Hippo
         </Link>
         {/* <Link to="articles" className="sub-nav-item"> */}
         <Link
@@ -66,7 +63,7 @@ function App() {
           smooth={true}
           duration={1000}
         >
-          E
+          Elephant
         </Link>
         {/* <Link to="about" className="sub-nav-item"> */}
         <Link
@@ -77,13 +74,14 @@ function App() {
           smooth={true}
           duration={1000}
         >
-          P
+          Panther
         </Link>
       </div>
 
       <div
         className="fullComponent"
         // style={{ backgroundImage: `url(${wallpaper1})` }}
+        // style={{ backgroundColor: "black" }}
       >
         <About />
       </div>

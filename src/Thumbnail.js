@@ -20,20 +20,34 @@ function Thumbnail(props) {
                 </div>             */}
       {/* </Link> */}
 
-      <Card style={{ width: "18rem" }}>
+      <Card
+        bg="dark"
+        text="white"
+        style={{
+          width: "18rem",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
         <Card.Img
-          variant="top"
+          style={{
+            align: "center",
+            padding: "15px",
+          }}
+          variant="bot"
           src={props.image}
-          className="App-logo"
+          className="thumbnail-logo"
           alt="Logo Image"
         />
         <Card.Body>
           <Card.Title>{props.title}</Card.Title>
           <Card.Text>{props.text}</Card.Text>
         </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Last updated: {props.smallTag}</small>
-        </Card.Footer>
+        {/* <Card.Footer> */}
+        {/* <small className="text-muted">Last updated: {props.smallTag}</small> */}
+        {/* <small className="text-muted">{props.smallTag}</small> */}
+        {/* <small>{props.smallTag}</small> */}
+        {/* </Card.Footer> */}
       </Card>
     </Container>
   );
