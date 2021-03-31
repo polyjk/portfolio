@@ -20,7 +20,19 @@ function Projects(props) {
   return (
     <Container>
       {/* <h1 className="component-header" style={{ color: "#282c34" }}> */}
-      <h1 className="component-header">Panther</h1>
+      <h1 className="component-header">
+        <span className="underline--magical3">Panther</span>
+        <br></br>
+        <h5>
+          <a
+            href="https://codesandbox.io/s/framer-motion-stagger-fade-in-up-9gky2?from-embed=&file=/src/pages/index.js"
+            className="component-header-link"
+            target="_blank"
+          >
+            Gator
+          </a>
+        </h5>
+      </h1>
 
       {/* <Row className='projRow'> */}
       {/* <motion.div animate={controls}> */}

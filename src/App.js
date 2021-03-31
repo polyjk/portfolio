@@ -67,6 +67,7 @@ function App() {
         </Link>
         {/* <Link to="about" className="sub-nav-item"> */}
         <Link
+          id="button3"
           className="sub-nav-item"
           activeClass="active"
           to="section3"

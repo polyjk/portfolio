@@ -22,7 +22,19 @@ import Experience from "./Experience.js";
 function Articles(props) {
   return (
     <Container>
-      <h1 className="component-header">Elephant</h1>
+      <h1 className="component-header">
+        <span className="underline--magical2">Elephant</span>
+        <br></br>
+        <h5>
+          <a
+            href="https://codesandbox.io/s/framer-motion-stagger-fade-in-up-9gky2?from-embed=&file=/src/pages/index.js"
+            className="component-header-link"
+            target="_blank"
+          >
+            Lion
+          </a>
+        </h5>
+      </h1>
       <Container className="experience-all">
         <Experience
           link="/photoshop"

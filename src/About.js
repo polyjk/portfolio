@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-scroll";
+import { motion, useAnimation } from "framer-motion";
 
 function About(props) {
   return (
@@ -9,7 +10,7 @@ function About(props) {
         className="component-header"
         style={{ fontSize: "155px", paddingBottom: "30px" }}
       >
-        Hippo!
+        <span className="underline--magical">Hippo!</span>
       </h1>
       <div className="about-desc">
         Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset
