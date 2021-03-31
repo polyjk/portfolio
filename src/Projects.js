@@ -5,9 +5,9 @@ import logo from "./logo.svg";
 import { Col, Container, Row } from "react-bootstrap";
 import { motion, useAnimation } from "framer-motion";
 import { Link } from "react-scroll";
-import smartphone from "./images/smartphone.png";
-import controller from "./images/controller.svg";
-import website from "./images/website.png";
+import smartphone from "./images/smartphone-mono.png";
+import controller from "./images/controller-mono.png";
+import website from "./images/website-mono.png";
 //import android from "./images/android.jpeg";
 
 function Projects(props) {
@@ -19,9 +19,8 @@ function Projects(props) {
   });
   return (
     <Container>
-      <h1 className="component-header" style={{ color: "#282c34" }}>
-        Panther
-      </h1>
+      {/* <h1 className="component-header" style={{ color: "#282c34" }}> */}
+      <h1 className="component-header">Panther</h1>
 
       {/* <Row className='projRow'> */}
       {/* <motion.div animate={controls}> */}
@@ -32,8 +31,11 @@ function Projects(props) {
             <Thumbnail
               link="/twitter"
               image={smartphone}
-              title=" Quickest Arrival"
-              text="Android Mobile App"
+              title="Apples"
+              text="Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset
+              concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius
+              te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et.
+              Inciderint efficiantur his ad. Eum no molestiae voluptatibus."
               smallTag="Java"
             />
           </Col>
@@ -41,8 +43,11 @@ function Projects(props) {
             <Thumbnail
               link="/airbnb"
               image={controller}
-              title="Turn The Tides"
-              text="Unity Video Game"
+              title="Banana"
+              text="Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset
+              concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius
+              te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et.
+              Inciderint efficiantur his ad. Eum no molestiae voluptatibus."
               smallTag="C#"
             />
           </Col>
@@ -50,8 +55,11 @@ function Projects(props) {
             <Thumbnail
               link="/photoshop"
               image={website}
-              title="Portfolio"
-              text="Responsive React Website"
+              title="Carrot"
+              text="Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset
+              concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius
+              te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et.
+              Inciderint efficiantur his ad. Eum no molestiae voluptatibus."
               smallTag="React, JavaScript, HTML, CSS"
             />
           </Col>
