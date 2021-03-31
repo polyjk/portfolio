@@ -26,7 +26,7 @@ function Experience(props) {
     // </Container>
 
     <Container className="experience">
-      <Card>
+      <Card bg="dark" text="white">
         <Card.Header as="h5">
           {props.company}
           <h1 style={{ color: "grey", fontSize: "16px", float: "right" }}>

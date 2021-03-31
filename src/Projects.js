@@ -5,7 +5,10 @@ import logo from "./logo.svg";
 import { Col, Container, Row } from "react-bootstrap";
 import { motion, useAnimation } from "framer-motion";
 import { Link } from "react-scroll";
-import ScrollAnimation from "react-animate-on-scroll";
+import smartphone from "./images/smartphone-mono.png";
+import controller from "./images/controller-mono.png";
+import website from "./images/website-mono.png";
+//import android from "./images/android.jpeg";
 
 function Projects(props) {
   const controls = useAnimation();
@@ -16,43 +19,53 @@ function Projects(props) {
   });
   return (
     <Container>
-      <h1 className="component-header">P</h1>
+      {/* <h1 className="component-header" style={{ color: "#282c34" }}> */}
+      <h1 className="component-header">Panther</h1>
 
       {/* <Row className='projRow'> */}
       {/* <motion.div animate={controls}> */}
-      <ScrollAnimation animateIn="fadeIn">
-        <Container className="projects-all">
-          <Row>
-            <Col>
-              <Thumbnail
-                link="/twitter"
-                image={logo}
-                title="Alpha"
-                text="Desc1"
-                smallTag="3/01/21"
-              />
-            </Col>
-            <Col>
-              <Thumbnail
-                link="/airbnb"
-                image={logo}
-                title="Beta"
-                text="Desc2"
-                smallTag="3/05/21"
-              />
-            </Col>
-            <Col>
-              <Thumbnail
-                link="/photoshop"
-                image={logo}
-                title="Chrome"
-                text="Desc3"
-                smallTag="3/015/21"
-              />
-            </Col>
-          </Row>
-        </Container>
-      </ScrollAnimation>
+
+      <Container className="projects-all">
+        <Row>
+          <Col>
+            <Thumbnail
+              link="/twitter"
+              image={smartphone}
+              title="Apples"
+              text="Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset
+              concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius
+              te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et.
+              Inciderint efficiantur his ad. Eum no molestiae voluptatibus."
+              smallTag="Java"
+            />
+          </Col>
+          <Col>
+            <Thumbnail
+              link="/airbnb"
+              image={controller}
+              title="Banana"
+              text="Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset
+              concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius
+              te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et.
+              Inciderint efficiantur his ad. Eum no molestiae voluptatibus."
+              smallTag="C#"
+            />
+          </Col>
+          <Col>
+            <Thumbnail
+              link="/photoshop"
+              image={website}
+              title="Carrot"
+              text="Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset
+              concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius
+              te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et.
+              Inciderint efficiantur his ad. Eum no molestiae voluptatibus."
+              smallTag="React, JavaScript, HTML, CSS"
+            />
+          </Col>
+        </Row>
+      </Container>
+
       {/* </motion.div> */}
     </Container>
   );

@@ -7,6 +7,7 @@ import Articles from "./Articles.js";
 import About from "./About.js";
 import { Container } from "react-bootstrap";
 import { Link } from "react-scroll";
+import ScrollAnimation from "react-animate-on-scroll";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -36,9 +37,9 @@ function App() {
     // </BrowserRouter>
     //END
 
-    <div>
+    <div className="App">
       <h1 className="header" id="section1">
-        ASDF
+        {" "}
       </h1>
 
       <div className="navigation">
@@ -51,7 +52,7 @@ function App() {
           smooth={true}
           duration={1000}
         >
-          H
+          Hippo
         </Link>
         {/* <Link to="articles" className="sub-nav-item"> */}
         <Link
@@ -62,7 +63,7 @@ function App() {
           smooth={true}
           duration={1000}
         >
-          E
+          Elephant
         </Link>
         {/* <Link to="about" className="sub-nav-item"> */}
         <Link
@@ -73,19 +74,25 @@ function App() {
           smooth={true}
           duration={1000}
         >
-          P
+          Panther
         </Link>
       </div>
 
-      <div className="fullComponent">
+      <div
+        className="fullComponent"
+        // style={{ backgroundImage: `url(${wallpaper1})` }}
+        // style={{ backgroundColor: "black" }}
+      >
         <About />
       </div>
       <div className="fullComponent" id="section2">
         <Articles />
       </div>
+      <ScrollAnimation animateIn="fadeIn"></ScrollAnimation>
       <div className="fullComponent" id="section3">
         <Projects />
       </div>
+      <ScrollAnimation animateIn="fadeIn"></ScrollAnimation>
     </div>
   );
 }

@@ -22,7 +22,7 @@ import Experience from "./Experience.js";
 function Articles(props) {
   return (
     <Container>
-      <h1 className="component-header">E</h1>
+      <h1 className="component-header">Elephant</h1>
       <Container className="experience-all">
         <Experience
           link="/photoshop"
@@ -30,7 +30,10 @@ function Articles(props) {
           company="SCH"
           date="1/1/1"
           title="ZXCV"
-          text="Desc"
+          text="Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset
+          concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius
+          te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et.
+          Inciderint efficiantur his ad. Eum no molestiae voluptatibus."
           smallTag="3/015/21"
         />
 
@@ -40,7 +43,10 @@ function Articles(props) {
           company="CO"
           date="1/1/1"
           title="QWERTY"
-          text="Desc"
+          text="Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset
+          concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius
+          te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et.
+          Inciderint efficiantur his ad. Eum no molestiae voluptatibus."
           smallTag="3/015/21"
         />
       </Container>

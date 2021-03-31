@@ -1,28 +1,49 @@
 /****************************************************App.js - START - ****************************************************/
 .App {
   /* text-align: center; */
+  background: linear-gradient(rgba(0, 17, 250, 0.5), transparent);
+  background-color: rgb(255, 193, 79);
+  /* this your primary color */
+  /* background: linear-gradient(#4ca1af, transparent);
+  background-color: rgb(#c4e0e5); */
 }
 
-.App-logo {
-  height: 10vmin;
+.header {
+  color: white;
+  background-color: #282c34;
+  margin-bottom: 0px;
+  text-underline-position: below;
+}
+
+.thumbnail-logo {
+  height: 15vmin;
+  width: 15vmin;
   pointer-events: none;
 }
 
 .fullComponent {
-  height: 100vh;
+  height: 100%;
+  min-height: 100vh;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .fullComponentCards {
   height: 100vh;
+  min-height: 100vh;
 }
 
 .component-header {
-  padding-top: 15vh;
-  padding-bottom: 15vh;
+  color: white;
+  padding-top: 15vmin;
+  padding-bottom: 15vmin;
 }
 
 .navigation {
   background-color: #282c34;
+  /* background: transparent; */
+  /* backdrop-filter: blur(1px); */
   min-height: 5vh;
   display: flex;
   flex-direction: row;
@@ -59,12 +80,12 @@
 /****************************************************App.js - END - ****************************************************/
 
 /*******************************-Project && Thumbnail-********************************/
-.projects-all {
-  /* display: flex;
-  flex-direction: row; */
-  /* align-items: center;
-  justify-content: center; */
-}
+/* .projects-all {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+} */
 
 .project {
   padding: 15px;
@@ -76,4 +97,14 @@
 
 .experience {
   padding: 15px;
+}
+
+/*******************************-Article && Experience-********************************/
+.about-desc {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
