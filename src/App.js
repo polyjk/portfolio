@@ -9,7 +9,7 @@ import { Card, Container } from "react-bootstrap";
 import { Link } from "react-scroll";
 import ScrollAnimation from "react-animate-on-scroll";
 import "bootstrap/dist/css/bootstrap.min.css";
-import gitlogo from "./images/Github.png";
+import gitlogo from "./images/github.png";
 
 function App() {
   return (
@@ -78,7 +78,7 @@ function App() {
         >
           Panther
         </Link>
-        <img src={gitlogo} width="45" height="45" />
+        <img src={gitlogo} width="35" height="35" />
       </div>
 
       <div
