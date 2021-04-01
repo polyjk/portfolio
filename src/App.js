@@ -9,7 +9,7 @@ import { Card, Container } from "react-bootstrap";
 import { Link } from "react-scroll";
 import ScrollAnimation from "react-animate-on-scroll";
 import "bootstrap/dist/css/bootstrap.min.css";
-import gitlogo from "./images/Github.png";
+// import gitlogo from "./images/github.png";
 
 function App() {
   return (
@@ -82,7 +82,22 @@ function App() {
         </div>
 
         <div className="navigation-right">
-          {/* <img src={gitlogo} width="20" height="20" /> */}
+          <a
+            href="https://github.com/polyjk"
+            target="_blank"
+            className="sub-nav-item"
+          >
+            {/* <img src={gitlogo} width="30" height="30" className="nav-image" /> */}
+            Gator
+          </a>
+          <a
+            href="https://www.linkedin.com/in/john-khammany-851464171"
+            target="_blank"
+            className="sub-nav-item"
+          >
+            {/* <img src={gitlogo} width="30" height="30" className="nav-image" /> */}
+            Lion
+          </a>
         </div>
       </div>
 

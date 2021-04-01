@@ -8,7 +8,8 @@ function About(props) {
     <Container>
       <h1
         className="component-header"
-        style={{ fontSize: "155px", paddingBottom: "30px" }}
+        // style={{ fontSize: "155px", paddingBottom: "30px" }}
+        style={{ fontSize: "10vw", paddingBottom: "30px" }}
       >
         <span className="underline--magical">Hippo!</span>
       </h1>
