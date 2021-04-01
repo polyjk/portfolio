@@ -25,7 +25,7 @@ function Thumbnail(props) {
         text="white"
         style={{
           // width: "18vw",
-          width: "18rem",
+          // width: "18rem",
           // minWidth: "1rem",
           alignItems: "center",
           justifyContent: "center",
