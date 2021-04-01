@@ -9,7 +9,7 @@ import { Card, Container } from "react-bootstrap";
 import { Link } from "react-scroll";
 import ScrollAnimation from "react-animate-on-scroll";
 import "bootstrap/dist/css/bootstrap.min.css";
-import gitlogo from "./images/github.png";
+import gitlogo from "./images/Github.png";
 
 function App() {
   return (
@@ -44,41 +44,46 @@ function App() {
       </h1>
 
       <div className="navigation">
-        {/* <Link to="/" className="sub-nav-item"> */}
-        <Link
-          className="sub-nav-item"
-          activeClass="active"
-          to="section1"
-          spy={true}
-          smooth={true}
-          duration={1000}
-        >
-          Hippo
-        </Link>
-        {/* <Link to="articles" className="sub-nav-item"> */}
-        <Link
-          className="sub-nav-item"
-          activeClass="active"
-          to="section2"
-          spy={true}
-          smooth={true}
-          duration={1000}
-        >
-          Elephant
-        </Link>
-        {/* <Link to="about" className="sub-nav-item"> */}
-        <Link
-          id="button3"
-          className="sub-nav-item"
-          activeClass="active"
-          to="section3"
-          spy={true}
-          smooth={true}
-          duration={1000}
-        >
-          Panther
-        </Link>
-        <img src={gitlogo} width="35" height="35" />
+        <div className="navigation-left">
+          {/* <Link to="/" className="sub-nav-item"> */}
+          <Link
+            className="sub-nav-item"
+            activeClass="active"
+            to="section1"
+            spy={true}
+            smooth={true}
+            duration={1000}
+          >
+            Hippo
+          </Link>
+          {/* <Link to="articles" className="sub-nav-item"> */}
+          <Link
+            className="sub-nav-item"
+            activeClass="active"
+            to="section2"
+            spy={true}
+            smooth={true}
+            duration={1000}
+          >
+            Elephant
+          </Link>
+          {/* <Link to="about" className="sub-nav-item"> */}
+          <Link
+            id="button3"
+            className="sub-nav-item"
+            activeClass="active"
+            to="section3"
+            spy={true}
+            smooth={true}
+            duration={1000}
+          >
+            Panther
+          </Link>
+        </div>
+
+        <div className="navigation-right">
+          {/* <img src={gitlogo} width="20" height="20" /> */}
+        </div>
       </div>
 
       <div

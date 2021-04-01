@@ -27,11 +27,11 @@ function Articles(props) {
         <br></br>
         <h5>
           <a
-            href="https://codesandbox.io/s/framer-motion-stagger-fade-in-up-9gky2?from-embed=&file=/src/pages/index.js"
+            href="https://www.linkedin.com/in/john-khammany-851464171"
             className="component-header-link"
             target="_blank"
           >
-            Lion
+            go to lion.
           </a>
         </h5>
       </h1>

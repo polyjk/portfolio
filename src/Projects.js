@@ -25,11 +25,11 @@ function Projects(props) {
         <br></br>
         <h5>
           <a
-            href="https://codesandbox.io/s/framer-motion-stagger-fade-in-up-9gky2?from-embed=&file=/src/pages/index.js"
+            href="https://github.com/polyjk"
             className="component-header-link"
             target="_blank"
           >
-            Gator
+            go to gator.
           </a>
         </h5>
       </h1>

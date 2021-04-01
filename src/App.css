@@ -75,15 +75,21 @@
   /* backdrop-filter: blur(1px); */
   min-height: 5vh;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: right;
+  /* flex-direction: column; */
+  /* align-items: center;
+  justify-content: right; */
   font-size: calc(10px + 2vmin);
   color: white;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 9999;
+}
+
+.navigation-left {
+}
+
+.navigation-right {
 }
 
 .sub-nav-item {
@@ -120,12 +126,13 @@
 }
 
 /*******************************-Project && Thumbnail-********************************/
-/* .projects-all {
-  display: flex;
+.projects-all {
+  /* display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-} */
+  justify-content: center; */
+  /* padding-bottom: 100px; */
+}
 
 .projects-all:active {
 }
