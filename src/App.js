@@ -5,10 +5,11 @@ import "./App.css";
 import Projects from "./Projects.js";
 import Articles from "./Articles.js";
 import About from "./About.js";
-import { Container } from "react-bootstrap";
+import { Card, Container } from "react-bootstrap";
 import { Link } from "react-scroll";
 import ScrollAnimation from "react-animate-on-scroll";
 import "bootstrap/dist/css/bootstrap.min.css";
+// import gitlogo from "./images/github.png";
 
 function App() {
   return (
@@ -43,39 +44,61 @@ function App() {
       </h1>
 
       <div className="navigation">
-        {/* <Link to="/" className="sub-nav-item"> */}
-        <Link
-          className="sub-nav-item"
-          activeClass="active"
-          to="section1"
-          spy={true}
-          smooth={true}
-          duration={1000}
-        >
-          Hippo
-        </Link>
-        {/* <Link to="articles" className="sub-nav-item"> */}
-        <Link
-          className="sub-nav-item"
-          activeClass="active"
-          to="section2"
-          spy={true}
-          smooth={true}
-          duration={1000}
-        >
-          Elephant
-        </Link>
-        {/* <Link to="about" className="sub-nav-item"> */}
-        <Link
-          className="sub-nav-item"
-          activeClass="active"
-          to="section3"
-          spy={true}
-          smooth={true}
-          duration={1000}
-        >
-          Panther
-        </Link>
+        <div className="navigation-left">
+          {/* <Link to="/" className="sub-nav-item"> */}
+          <Link
+            className="sub-nav-item"
+            activeClass="active"
+            to="section1"
+            spy={true}
+            smooth={true}
+            duration={1000}
+          >
+            Hippo
+          </Link>
+          {/* <Link to="articles" className="sub-nav-item"> */}
+          <Link
+            className="sub-nav-item"
+            activeClass="active"
+            to="section2"
+            spy={true}
+            smooth={true}
+            duration={1000}
+          >
+            Elephant
+          </Link>
+          {/* <Link to="about" className="sub-nav-item"> */}
+          <Link
+            id="button3"
+            className="sub-nav-item"
+            activeClass="active"
+            to="section3"
+            spy={true}
+            smooth={true}
+            duration={1000}
+          >
+            Panther
+          </Link>
+        </div>
+
+        <div className="navigation-right">
+          <a
+            href="https://github.com/polyjk"
+            target="_blank"
+            className="sub-nav-item"
+          >
+            {/* <img src={gitlogo} width="30" height="30" className="nav-image" /> */}
+            Gator
+          </a>
+          <a
+            href="https://www.linkedin.com/in/john-khammany-851464171"
+            target="_blank"
+            className="sub-nav-item"
+          >
+            {/* <img src={gitlogo} width="30" height="30" className="nav-image" /> */}
+            Lion
+          </a>
+        </div>
       </div>
 
       <div
@@ -93,6 +116,46 @@ function App() {
         <Projects />
       </div>
       <ScrollAnimation animateIn="fadeIn"></ScrollAnimation>
+      {/* <Container className="fullComponent" id="contact">
+        <Card
+          bg="dark"
+          text="white"
+          style={{
+            width: "18rem",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+          id="contact-form"
+        >
+          <form action="https://formspree.io/mpzyqdng" method="POST">
+            <Card.Header>
+              <input
+                type="hidden"
+                name="_subject"
+                value="Contact request from personal website"
+              />
+              <h2>Get in Touch</h2>
+            </Card.Header>
+            <Card.Body>
+              <input
+                type="email"
+                name="_replyto"
+                placeholder="Your email"
+                required
+              />
+              <br></br>
+              <textarea
+                name="message"
+                placeholder="Type your message"
+                required
+              ></textarea>
+            </Card.Body>
+            <Card.Footer>
+              <button type="submit">Send</button>
+            </Card.Footer>
+          </form>
+        </Card>
+      </Container> */}
     </div>
   );
 }

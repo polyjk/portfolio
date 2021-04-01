@@ -20,7 +20,19 @@ function Projects(props) {
   return (
     <Container>
       {/* <h1 className="component-header" style={{ color: "#282c34" }}> */}
-      <h1 className="component-header">Panther</h1>
+      <h1 className="component-header">
+        <span className="underline--magical3">Panther</span>
+        <br></br>
+        <h5>
+          <a
+            href="https://github.com/polyjk"
+            className="component-header-link"
+            target="_blank"
+          >
+            go to gator.
+          </a>
+        </h5>
+      </h1>
 
       {/* <Row className='projRow'> */}
       {/* <motion.div animate={controls}> */}
