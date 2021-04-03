@@ -49,8 +49,8 @@
 
 .component-header {
   color: white;
-  padding-top: 15vmin;
-  padding-bottom: 15vmin;
+  padding-top: 10vmin;
+  padding-bottom: 10vmin;
   animation: rollout 1.5s;
 }
 
@@ -78,8 +78,8 @@
   flex-direction: row;
   align-items: center;
   /* justify-content: left; */
-  /* font-size: calc(10px + 2vmin); */
-  font-size: 2.5vmin;
+  font-size: calc(5px + 2vmin);
+  /* font-size: 2.5vmin; */
   color: white;
   position: -webkit-sticky;
   position: sticky;
