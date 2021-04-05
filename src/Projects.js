@@ -92,7 +92,7 @@ function Projects(props) {
           }}
         >
           Contact me:<br></br>
-          <a className="component-header-link" href="mailto:p5khamm@gmail.com">
+          <a className="contact-link" href="mailto:p5khamm@gmail.com">
             p5khamm@gmail.com
           </a>
         </p>

@@ -67,6 +67,17 @@
   cursor: pointer;
 }
 
+.contact-link {
+  cursor: pointer;
+  color: #fff;
+}
+
+.contact-link:hover {
+  color: gainsboro;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 /*******************************-Navigation-********************************/
 
 .navigation {
