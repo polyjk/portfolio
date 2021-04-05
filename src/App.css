@@ -49,8 +49,8 @@
 
 .component-header {
   color: white;
-  padding-top: 15vmin;
-  padding-bottom: 15vmin;
+  padding-top: 10vmin;
+  padding-bottom: 10vmin;
   animation: rollout 1.5s;
 }
 
@@ -78,8 +78,10 @@
   flex-direction: row;
   align-items: center;
   /* justify-content: left; */
-  /* font-size: calc(10px + 2vmin); */
-  font-size: 2.5vmin;
+  /* font-size: calc(5px + 2vmin); */
+  font-size: calc(20px, 5px + 2vmin);
+  /* font-size: 2.5vmin; */
+  /* font-size: 15px; */
   color: white;
   position: -webkit-sticky;
   position: sticky;
@@ -103,6 +105,17 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+}
+
+@media screen and (max-width: 600px) {
+  .navigation-right {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
 }
 
 .sub-nav-item-right {
@@ -156,29 +169,45 @@
   align-items: center;
   justify-content: center; */
   /* padding-bottom: 100px; */
+  /* opacity: 1; */
   opacity: 0.8;
 }
 
-.projects-all:active {
-}
+/* .projects-all:hover {
+  opacity: 1;
+} */
 
 .project {
   padding: 15px;
 }
 
+.project:hover {
+  opacity: 1;
+}
+
 /*******************************-Article && Experience-********************************/
 .experience-all {
+  /* opacity: 1; */
   opacity: 0.8;
 }
 
+/* .experience-all:hover {
+  opacity: 1;
+} */
+
 .experience {
   padding: 15px;
+}
+
+.experience:hover {
+  opacity: 1;
 }
 
 /***************************************-ABOUT-****************************************/
 .about-desc {
   /* font-size: 30px; */
   /* font-size: 3vw; */
+  font-size: calc(10px + 2vmin);
   display: flex;
   flex-direction: column;
   justify-content: center;
