@@ -1,10 +1,8 @@
 import React from "react";
 import Thumbnail from "./Thumbnail.js";
 import "./App.css";
-import logo from "./logo.svg";
 import { Col, Container, Row } from "react-bootstrap";
 import { motion, useAnimation } from "framer-motion";
-import { Link } from "react-scroll";
 import smartphone from "./images/smartphone-mono.png";
 import controller from "./images/controller-mono.png";
 import website from "./images/website-mono.png";

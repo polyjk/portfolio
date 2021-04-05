@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 // import { BrowserRouter, Route, Link } from "react-router-dom";
 import Projects from "./Projects.js";
@@ -12,7 +11,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    //John @ 3/30/21 - START - Attempting to make the page scroll instead of using react-router library.
+    //John @ 3/30/21 - START - make the page scroll instead of using react-router library.
     // <BrowserRouter>
     //   <div className="App">
     //     <div className="navigation">
