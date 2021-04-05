@@ -77,6 +77,26 @@ function Projects(props) {
           </Col>
         </Row>
       </Container>
+      <Container
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          padding: "12vmin",
+          color: "white",
+        }}
+      >
+        <p
+          style={{
+            textAlign: "center",
+          }}
+        >
+          Contact me:<br></br>
+          <a className="component-header-link" href="mailto:p5khamm@gmail.com">
+            p5khamm@gmail.com
+          </a>
+        </p>
+      </Container>
 
       {/* </motion.div> */}
     </Container>

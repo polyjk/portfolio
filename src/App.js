@@ -7,7 +7,6 @@ import Articles from "./Articles.js";
 import About from "./About.js";
 import { Card, Container } from "react-bootstrap";
 import { Link } from "react-scroll";
-import ScrollAnimation from "react-animate-on-scroll";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import gitlogo from "./images/github.png";
 
@@ -111,51 +110,9 @@ function App() {
       <div className="fullComponent" id="section2">
         <Articles />
       </div>
-      <ScrollAnimation animateIn="fadeIn"></ScrollAnimation>
       <div className="fullComponent" id="section3">
         <Projects />
       </div>
-      <ScrollAnimation animateIn="fadeIn"></ScrollAnimation>
-      {/* <Container className="fullComponent" id="contact">
-        <Card
-          bg="dark"
-          text="white"
-          style={{
-            width: "18rem",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-          id="contact-form"
-        >
-          <form action="https://formspree.io/mpzyqdng" method="POST">
-            <Card.Header>
-              <input
-                type="hidden"
-                name="_subject"
-                value="Contact request from personal website"
-              />
-              <h2>Get in Touch</h2>
-            </Card.Header>
-            <Card.Body>
-              <input
-                type="email"
-                name="_replyto"
-                placeholder="Your email"
-                required
-              />
-              <br></br>
-              <textarea
-                name="message"
-                placeholder="Type your message"
-                required
-              ></textarea>
-            </Card.Body>
-            <Card.Footer>
-              <button type="submit">Send</button>
-            </Card.Footer>
-          </form>
-        </Card>
-      </Container> */}
     </div>
   );
 }
