@@ -2,8 +2,6 @@ import React from "react";
 import { Card, Col, Container, Row } from "react-bootstrap";
 import Experience from "./Experience.js";
 
-{
- 
 function Articles(props) {
   return (
     <Container>
