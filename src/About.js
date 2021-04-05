@@ -1,7 +1,5 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { Link } from "react-scroll";
-import { motion, useAnimation } from "framer-motion";
 
 function About(props) {
   return (
