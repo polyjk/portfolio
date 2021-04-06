@@ -86,6 +86,7 @@ function Projects(props) {
       >
         <p
           style={{
+            // fontWeight: "bold",
             textAlign: "center",
           }}
         >
