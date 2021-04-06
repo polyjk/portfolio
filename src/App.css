@@ -231,8 +231,6 @@
   align-items: center;
   justify-content: center; */
   /* padding-bottom: 100px; */
-  /* opacity: 1; */
-  opacity: 0.8;
 }
 
 /* .projects-all:hover {
@@ -241,16 +239,15 @@
 
 .project {
   padding: 15px;
+  opacity: 1;
 }
 
 .project:hover {
-  opacity: 1;
+  /* opacity: 0.9; */
 }
 
 /*******************************-Article && Experience-********************************/
 .experience-all {
-  /* opacity: 1; */
-  opacity: 0.8;
 }
 
 /* .experience-all:hover {
@@ -259,10 +256,11 @@
 
 .experience {
   padding: 15px;
+  opacity: 1;
 }
 
 .experience:hover {
-  opacity: 1;
+  /* opacity: 0.9; */
 }
 
 /***************************************-ABOUT-****************************************/
