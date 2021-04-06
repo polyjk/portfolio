@@ -30,7 +30,7 @@ function DropDownMenu(props) {
           smooth={true}
           duration={1000}
         >
-          Elephant
+          Experience
         </Link>
         <Link
           id="button3"
@@ -41,19 +41,21 @@ function DropDownMenu(props) {
           smooth={true}
           duration={1000}
         >
-          Panther
+          Projects
         </Link>
         <Dropdown.Item
           className="dropdown-item"
           href="https://github.com/polyjk"
+          target="_blank"
         >
-          Gator
+          Github
         </Dropdown.Item>
         <Dropdown.Item
           className="dropdown-item"
           href="https://www.linkedin.com/in/john-khammany-851464171"
+          target="_blank"
         >
-          Lion
+          LinkedIn
         </Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
