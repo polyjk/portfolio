@@ -101,6 +101,7 @@
 }
 
 .navigation-left {
+  visibility: visible;
   /* min-width: 50vw;
   width: 50%; */
   width: 50vw;
@@ -110,12 +111,45 @@
 }
 
 .navigation-right {
+  visibility: visible;
   /* min-width: 50vw;
   width: 50%; */
   width: 50vw;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+}
+
+.nav-dropdown {
+  padding: 5px;
+  visibility: hidden;
+  display: none;
+}
+
+.nav-dropdown-menu a {
+  /* color: black; */
+  font-weight: bold;
+  /* background-color: white; */
+  /* border-radius: 180px; */
+  /* padding: 0px 0px; */
+  padding: 10px;
+  /* margin-top: 0px; */
+}
+
+.dropdown-item {
+  text-decoration: none;
+  color: black !important;
+  background-color: white !important;
+}
+.dropdown-item:hover {
+  /* color: white; */
+  text-decoration: underline;
+  cursor: pointer !important;
+}
+
+.dropdown-item:active {
+  color: grey !important;
+  background-color: white !important;
 }
 
 @media screen and (max-width: 600px) {
@@ -126,6 +160,23 @@
     margin: 10px auto 5px 20px;
     width: 28%;
     display: none;
+  }
+
+  .navigation-left {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+
+  .nav-dropdown {
+    visibility: visible;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
   }
 }
 
@@ -180,8 +231,6 @@
   align-items: center;
   justify-content: center; */
   /* padding-bottom: 100px; */
-  /* opacity: 1; */
-  opacity: 0.8;
 }
 
 /* .projects-all:hover {
@@ -190,16 +239,15 @@
 
 .project {
   padding: 15px;
+  opacity: 1;
 }
 
 .project:hover {
-  opacity: 1;
+  /* opacity: 0.9; */
 }
 
 /*******************************-Article && Experience-********************************/
 .experience-all {
-  /* opacity: 1; */
-  opacity: 0.8;
 }
 
 /* .experience-all:hover {
@@ -208,10 +256,11 @@
 
 .experience {
   padding: 15px;
+  opacity: 1;
 }
 
 .experience:hover {
-  opacity: 1;
+  /* opacity: 0.9; */
 }
 
 /***************************************-ABOUT-****************************************/

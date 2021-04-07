@@ -7,6 +7,7 @@ import About from "./About.js";
 import { Card, Container } from "react-bootstrap";
 import { Link } from "react-scroll";
 import "bootstrap/dist/css/bootstrap.min.css";
+import DropDownMenu from "./DropDownMenu.js";
 // import gitlogo from "./images/github.png";
 
 function App() {
@@ -52,7 +53,7 @@ function App() {
             smooth={true}
             duration={1000}
           >
-            Hippo
+            About
           </Link>
           {/* <Link to="articles" className="sub-nav-item"> */}
           <Link
@@ -96,6 +97,10 @@ function App() {
             {/* <img src={gitlogo} width="30" height="30" className="nav-image" /> */}
             Lion
           </a>
+        </div>
+
+        <div className="nav-dropdown">
+          <DropDownMenu></DropDownMenu>
         </div>
       </div>
 
