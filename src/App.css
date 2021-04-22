@@ -90,7 +90,8 @@
   align-items: center;
   /* justify-content: left; */
   /* font-size: calc(5px + 2vmin); */
-  font-size: calc(20px, 5px + 2vmin);
+  /* font-size: calc(5px + 2vmin); */
+  font-size: calc(20px);
   /* font-size: 2.5vmin; */
   /* font-size: 15px; */
   color: white;
