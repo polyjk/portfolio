@@ -12,6 +12,7 @@ function Thumbnail(props) {
           // width: "18vw",
           // width: "18rem",
           minWidth: "15rem",
+          minHeight: "15rem",
           // maxHeight: "10rem",
           alignItems: "center",
           justifyContent: "center",

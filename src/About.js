@@ -9,13 +9,10 @@ function About(props) {
         // style={{ fontSize: "155px", paddingBottom: "30px" }}
         style={{ fontSize: "calc(40px + 8vmin)", paddingBottom: "30px" }}
       >
-        <span className="underline--magical">Hippo!</span>
+        <span className="underline--magical">Hello!</span>
       </h1>
       <div className="about-desc">
-        Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset
-        concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius
-        te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et.
-        Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
+        I'm a Developer with a passion for Responsive and Minimalistic design.
       </div>
     </Container>
   );

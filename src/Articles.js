@@ -6,7 +6,7 @@ function Articles(props) {
   return (
     <Container>
       <h1 className="component-header">
-        <span className="underline--magical2">Elephant</span>
+        <span className="underline--magical2">Work</span>
         <br></br>
         <h5>
           <a
@@ -14,7 +14,7 @@ function Articles(props) {
             className="component-header-link"
             target="_blank"
           >
-            go to lion.
+            go to linkedin.
           </a>
         </h5>
       </h1>
@@ -35,13 +35,12 @@ function Articles(props) {
         <Experience
           link="/photoshop"
           image=""
-          company="CO"
-          date="1/1/1"
-          title="QWERTY"
-          text="Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset
-          concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius
-          te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et.
-          Inciderint efficiantur his ad. Eum no molestiae voluptatibus."
+          company="Service Tool Company"
+          date="4/1/2020 - Present"
+          title="Programmer/Analyst"
+          text1="Worked in a team environment with a focus on front-end development to create intuitive user interfaces."
+          text2="Developed in-house web and mobile applications that helped generate more sales, and improve office/warehouse productivity."
+          text3="Maintained several existing applications by debugging and delivering new enhancements."
           smallTag="3/015/21"
         />
       </Container>
