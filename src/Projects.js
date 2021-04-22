@@ -19,7 +19,7 @@ function Projects(props) {
     <Container>
       {/* <h1 className="component-header" style={{ color: "#282c34" }}> */}
       <h1 className="component-header">
-        <span className="underline--magical3">Panther</span>
+        <span className="underline--magical3">Projects</span>
         <br></br>
         <h5>
           <a
@@ -27,7 +27,7 @@ function Projects(props) {
             className="component-header-link"
             target="_blank"
           >
-            go to gator.
+            go to github.
           </a>
         </h5>
       </h1>
@@ -41,11 +41,8 @@ function Projects(props) {
             <Thumbnail
               link="/twitter"
               image={smartphone}
-              title="Apples"
-              text="Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset
-              concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius
-              te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et.
-              Inciderint efficiantur his ad. Eum no molestiae voluptatibus."
+              title="Android Mobile App"
+              text="Quickest Arrival GPS. Written in Java and used Google's Map API."
               smallTag="Java"
             />
           </Col>
@@ -53,11 +50,8 @@ function Projects(props) {
             <Thumbnail
               link="/airbnb"
               image={controller}
-              title="Banana"
-              text="Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset
-              concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius
-              te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et.
-              Inciderint efficiantur his ad. Eum no molestiae voluptatibus."
+              title="Unity Video Game"
+              text="Turn the Tides. Written in C# with the Unity Development Platform."
               smallTag="C#"
             />
           </Col>
@@ -65,11 +59,8 @@ function Projects(props) {
             <Thumbnail
               link="/photoshop"
               image={website}
-              title="Carrot"
-              text="Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset
-              concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius
-              te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et.
-              Inciderint efficiantur his ad. Eum no molestiae voluptatibus."
+              title="Web Portfolio"
+              text="Responsive web design. Written with React, JavaScript, HTML, CSS."
               smallTag="React, JavaScript, HTML, CSS"
             />
           </Col>

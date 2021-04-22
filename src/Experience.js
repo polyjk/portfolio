@@ -14,7 +14,14 @@ function Experience(props) {
         </Card.Header>
         <Card.Body>
           <Card.Title>{props.title}</Card.Title>
-          <Card.Text>{props.text}</Card.Text>
+          <Card.Text>
+            <ul>
+              <li>{props.text1}</li>
+              <li>{props.text2}</li>
+              <li>{props.text3}</li>
+            </ul>
+          </Card.Text>
+
           {/* <Button variant="primary">Go somewhere</Button> */}
         </Card.Body>
       </Card>

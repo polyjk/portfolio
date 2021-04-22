@@ -64,7 +64,7 @@ function App() {
             smooth={true}
             duration={1000}
           >
-            Elephant
+            Work
           </Link>
           {/* <Link to="about" className="sub-nav-item"> */}
           <Link
@@ -76,7 +76,7 @@ function App() {
             smooth={true}
             duration={1000}
           >
-            Panther
+            Projects
           </Link>
         </div>
 
@@ -87,7 +87,7 @@ function App() {
             className="sub-nav-item"
           >
             {/* <img src={gitlogo} width="30" height="30" className="nav-image" /> */}
-            Gator
+            Git
           </a>
           <a
             href="https://www.linkedin.com/in/john-khammany-851464171"
@@ -95,7 +95,7 @@ function App() {
             className="sub-nav-item"
           >
             {/* <img src={gitlogo} width="30" height="30" className="nav-image" /> */}
-            Lion
+            LinkedIn
           </a>
         </div>
 
