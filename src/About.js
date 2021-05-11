@@ -12,7 +12,7 @@ function About(props) {
         <span className="underline--magical">Hello!</span>
       </h1>
       <div className="about-desc">
-        I'm a Developer with a passion for solving problems with code.
+        I'm a Developer with a passion for solving problems through code.
       </div>
     </Container>
   );
